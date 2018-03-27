@@ -201,9 +201,11 @@ var redirectCapturer = function (guardian) {
 
 var historian = function () {
     var _this = this;
-    this.router.events.filter(function (evt) { return evt instanceof router.NavigationEnd; }).subscribe(function (evt) {
-        _this.history.unshift(evt.url);
-        _this.history.splice(10);
+    this.router.events.subscribe(function (evt) {
+        if (evt instanceof router.NavigationEnd) {
+            _this.history.unshift(evt.url);
+            _this.history.splice(10);
+        }
     });
 };
 
