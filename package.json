@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unitedsolutions/ng-guardian.git"
+    "url": "https://github.com/aptivator/ng-guardian.git"
   },
   "bugs": {
-    "url": "https://github.com/unitedsolutions/ng-guardian/issues"
+    "url": "https://github.com/aptivator/ng-guardian/issues"
   },
   "author": "Dmitriy A. Nesterkin",
   "license": "MIT",
@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "lodash": "^4.17.4",
-    "ng-http-client-plus": "https://github.com/aptivator/ng-http-client-plus.git#d932c024821a84e474d41eba705186da038edef2"
+    "ng-http-client-plus": "^0.5.2"
   },
   "peerDependencies": {
     "@angular/core": ">=4.3.6",
