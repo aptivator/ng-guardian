@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "lodash": "^4.17.4",
-    "ng-http-client-plus": "git+https://git@github.com/aptivator/ng-http-client-plus.git#169726283a85772116610f85525cdf7cfc14f197"
+    "ng-http-client-plus": "https://github.com/aptivator/ng-http-client-plus.git#d932c024821a84e474d41eba705186da038edef2"
   },
   "peerDependencies": {
     "@angular/core": ">=4.3.6",
